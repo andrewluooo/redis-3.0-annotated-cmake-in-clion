@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc liblinenoise.a  CMakeFiles/linenoise.dir/linenoise.c.o
+/usr/bin/ranlib.exe liblinenoise.a

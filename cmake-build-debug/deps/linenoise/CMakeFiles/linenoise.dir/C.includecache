@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.c
+termios.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+sys/types.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+linenoise.h
+/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.h
+
+/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.h
+
