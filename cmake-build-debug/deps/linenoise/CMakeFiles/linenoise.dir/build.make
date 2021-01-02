@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Andrew/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include deps/linenoise/CMakeFiles/linenoise.dir/depend.make
@@ -59,16 +59,16 @@ include deps/linenoise/CMakeFiles/linenoise.dir/flags.make
 
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o: deps/linenoise/CMakeFiles/linenoise.dir/flags.make
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o: ../deps/linenoise/linenoise.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linenoise.dir/linenoise.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linenoise.dir/linenoise.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/linenoise.c
 
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linenoise.dir/linenoise.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.c > CMakeFiles/linenoise.dir/linenoise.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/linenoise.c > CMakeFiles/linenoise.dir/linenoise.c.i
 
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linenoise.dir/linenoise.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.c -o CMakeFiles/linenoise.dir/linenoise.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/linenoise.c -o CMakeFiles/linenoise.dir/linenoise.c.s
 
 # Object files for target linenoise
 linenoise_OBJECTS = \
@@ -80,9 +80,9 @@ linenoise_EXTERNAL_OBJECTS =
 deps/linenoise/liblinenoise.a: deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o
 deps/linenoise/liblinenoise.a: deps/linenoise/CMakeFiles/linenoise.dir/build.make
 deps/linenoise/liblinenoise.a: deps/linenoise/CMakeFiles/linenoise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblinenoise.a"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -P CMakeFiles/linenoise.dir/cmake_clean_target.cmake
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linenoise.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblinenoise.a"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -P CMakeFiles/linenoise.dir/cmake_clean_target.cmake
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linenoise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 deps/linenoise/CMakeFiles/linenoise.dir/build: deps/linenoise/liblinenoise.a
@@ -90,10 +90,10 @@ deps/linenoise/CMakeFiles/linenoise.dir/build: deps/linenoise/liblinenoise.a
 .PHONY : deps/linenoise/CMakeFiles/linenoise.dir/build
 
 deps/linenoise/CMakeFiles/linenoise.dir/clean:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -P CMakeFiles/linenoise.dir/cmake_clean.cmake
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise && $(CMAKE_COMMAND) -P CMakeFiles/linenoise.dir/cmake_clean.cmake
 .PHONY : deps/linenoise/CMakeFiles/linenoise.dir/clean
 
 deps/linenoise/CMakeFiles/linenoise.dir/depend:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : deps/linenoise/CMakeFiles/linenoise.dir/depend
 

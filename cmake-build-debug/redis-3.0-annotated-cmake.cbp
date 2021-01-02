@@ -8,45 +8,45 @@
 		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\hiredis\;CMake Files\deps\linenoise\;CMake Files\deps\lua\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="redis-cli">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
@@ -55,22 +55,22 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="redis-cli/fast">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
@@ -79,22 +79,22 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="redis-server">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
@@ -103,22 +103,22 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="redis-server/fast">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise"/>
-					<Add directory="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise"/>
+					<Add directory="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
@@ -127,15 +127,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hiredis">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -148,15 +148,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hiredis/fast">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -169,15 +169,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linenoise">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -190,15 +190,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linenoise/fast">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -211,15 +211,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lua">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -232,15 +232,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lua/fast">
-				<Option output="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua"/>
+				<Option output="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -253,466 +253,466 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/async.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/async.c">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/async.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/async.h">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/dict.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/dict.c">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/dict.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/dict.h">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/hiredis.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/hiredis.c">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/hiredis.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/hiredis.h">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/net.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/net.c">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/net.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/net.h">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/sds.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/sds.c">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/sds.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/sds.h">
 			<Option target="hiredis"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/linenoise.c">
 			<Option target="linenoise"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/linenoise.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/linenoise.h">
 			<Option target="linenoise"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lapi.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lapi.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lapi.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lapi.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lauxlib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lauxlib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lauxlib.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lauxlib.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lbaselib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lbaselib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lcode.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lcode.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lcode.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lcode.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldblib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldblib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldebug.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldebug.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldebug.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldebug.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldo.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldo.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldo.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldo.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ldump.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ldump.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lfunc.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lfunc.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lfunc.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lfunc.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lgc.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lgc.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lgc.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lgc.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/linit.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/linit.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/liolib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/liolib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/llex.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/llex.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/llex.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/llex.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lmathlib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lmathlib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lmem.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lmem.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lmem.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lmem.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/loadlib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/loadlib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lobject.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lobject.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lobject.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lobject.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lopcodes.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lopcodes.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lopcodes.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lopcodes.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/loslib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/loslib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lparser.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lparser.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lparser.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lparser.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lstate.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lstate.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lstate.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lstate.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lstring.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lstring.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lstring.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lstring.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lstrlib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lstrlib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ltable.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ltable.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ltable.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ltable.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ltablib.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ltablib.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ltm.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ltm.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/ltm.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/ltm.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lua.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lua.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lua.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lua.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lua_cjson.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lua_cjson.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lua_cmsgpack.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lua_cmsgpack.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lua_struct.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lua_struct.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/luac.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/luac.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lundump.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lundump.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lundump.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lundump.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lvm.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lvm.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lvm.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lvm.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lzio.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lzio.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/lzio.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/lzio.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/print.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/print.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/strbuf.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/strbuf.c">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src/strbuf.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src/strbuf.h">
 			<Option target="lua"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/adlist.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/adlist.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/adlist.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/adlist.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/ae.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/ae.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/ae.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/ae.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/anet.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/anet.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/anet.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/anet.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/aof.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/aof.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/bio.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/bio.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/bio.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/bio.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/bitops.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/bitops.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/blocked.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/blocked.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/cluster.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/cluster.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/cluster.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/cluster.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/config.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/config.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/config.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/config.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/crc16.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/crc16.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/crc64.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/crc64.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/crc64.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/crc64.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/db.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/db.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/debug.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/debug.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/dict.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/dict.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/dict.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/dict.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/endianconv.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/endianconv.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/endianconv.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/endianconv.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/hyperloglog.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/hyperloglog.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/intset.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/intset.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/intset.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/intset.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/lzf_c.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/lzf_c.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/lzf_d.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/lzf_d.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/memtest.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/memtest.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/multi.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/multi.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/networking.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/networking.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/notify.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/notify.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/object.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/object.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/pqsort.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/pqsort.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/pqsort.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/pqsort.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/pubsub.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/pubsub.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rand.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rand.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rand.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rand.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rdb.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rdb.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rdb.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rdb.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/redis-cli.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/redis-cli.c">
 			<Option target="redis-cli"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/redis.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/redis.c">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/redis.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/redis.h">
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/release.c">
-			<Option target="redis-cli"/>
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/release.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/release.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/replication.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rio.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/rio.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/scripting.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sds.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/release.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sds.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/replication.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/rio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/scripting.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sds.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sentinel.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/setproctitle.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sha1.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sha1.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/slowlog.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/slowlog.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sort.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/syncio.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/t_hash.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/t_list.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/t_set.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/t_string.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/t_zset.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/util.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/util.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/ziplist.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/ziplist.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/zipmap.c">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/zipmap.h">
-			<Option target="redis-server"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/zmalloc.c">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sds.h">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/zmalloc.h">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sentinel.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/setproctitle.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sha1.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sha1.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/slowlog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/slowlog.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/syncio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/t_hash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/t_list.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/t_set.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/t_string.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/t_zset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/util.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/util.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/ziplist.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/ziplist.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/zipmap.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/zipmap.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/zmalloc.c">
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/CMakeLists.txt">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/zmalloc.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/CMakeLists.txt">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\deps\"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/CMakeLists.txt">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\deps\hiredis\"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise/CMakeLists.txt">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\deps\linenoise\"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/CMakeLists.txt">
+		<Unit filename="/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\deps\lua\"/>
 		</Unit>
 	</Project>

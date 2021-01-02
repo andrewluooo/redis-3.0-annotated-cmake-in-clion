@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Andrew/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/CMakeFiles/progress.marks
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/CMakeFiles/progress.marks
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/clean
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/linenoise/CMakeFiles/linenoise.dir/rule:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/CMakeFiles/linenoise.dir/rule
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/CMakeFiles/linenoise.dir/rule
 .PHONY : deps/linenoise/CMakeFiles/linenoise.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ linenoise: deps/linenoise/CMakeFiles/linenoise.dir/rule
 
 # fast build rule for target.
 linenoise/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/build
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/build
 .PHONY : linenoise/fast
 
 linenoise.o: linenoise.c.o
@@ -131,7 +131,7 @@ linenoise.o: linenoise.c.o
 
 # target to build an object file
 linenoise.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o
 .PHONY : linenoise.c.o
 
 linenoise.i: linenoise.c.i
@@ -140,7 +140,7 @@ linenoise.i: linenoise.c.i
 
 # target to preprocess a source file
 linenoise.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i
 .PHONY : linenoise.c.i
 
 linenoise.s: linenoise.c.s
@@ -149,7 +149,7 @@ linenoise.s: linenoise.c.s
 
 # target to generate assembly for a file
 linenoise.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s
 .PHONY : linenoise.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

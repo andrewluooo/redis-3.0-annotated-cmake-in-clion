@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Andrew/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include deps/hiredis/CMakeFiles/hiredis.dir/depend.make
@@ -59,68 +59,68 @@ include deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o: ../deps/hiredis/hiredis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/hiredis.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/hiredis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/hiredis.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/hiredis.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/hiredis.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/hiredis.c > CMakeFiles/hiredis.dir/hiredis.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/hiredis.c > CMakeFiles/hiredis.dir/hiredis.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/hiredis.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/hiredis.c -o CMakeFiles/hiredis.dir/hiredis.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/hiredis.c -o CMakeFiles/hiredis.dir/hiredis.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.o: ../deps/hiredis/net.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/net.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/net.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/net.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/net.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/net.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/net.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/net.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/net.c > CMakeFiles/hiredis.dir/net.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/net.c > CMakeFiles/hiredis.dir/net.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/net.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/net.c -o CMakeFiles/hiredis.dir/net.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/net.c -o CMakeFiles/hiredis.dir/net.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o: ../deps/hiredis/dict.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/dict.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/dict.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/dict.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/dict.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/dict.c > CMakeFiles/hiredis.dir/dict.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/dict.c > CMakeFiles/hiredis.dir/dict.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/dict.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/dict.c -o CMakeFiles/hiredis.dir/dict.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/dict.c -o CMakeFiles/hiredis.dir/dict.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o: ../deps/hiredis/sds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/sds.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/sds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/sds.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/sds.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/sds.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/sds.c > CMakeFiles/hiredis.dir/sds.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/sds.c > CMakeFiles/hiredis.dir/sds.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/sds.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/sds.c -o CMakeFiles/hiredis.dir/sds.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/sds.c -o CMakeFiles/hiredis.dir/sds.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.o: ../deps/hiredis/async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/async.c.o"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/async.c.o   -c /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/async.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/async.c.o"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/async.c.o   -c /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/async.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/async.c.i"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/async.c > CMakeFiles/hiredis.dir/async.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/async.c > CMakeFiles/hiredis.dir/async.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/async.c.s"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis/async.c -o CMakeFiles/hiredis.dir/async.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis/async.c -o CMakeFiles/hiredis.dir/async.c.s
 
 # Object files for target hiredis
 hiredis_OBJECTS = \
@@ -140,9 +140,9 @@ deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/async.c.o
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/build.make
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libhiredis.a"
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean_target.cmake
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiredis.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libhiredis.a"
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean_target.cmake
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiredis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 deps/hiredis/CMakeFiles/hiredis.dir/build: deps/hiredis/libhiredis.a
@@ -150,10 +150,10 @@ deps/hiredis/CMakeFiles/hiredis.dir/build: deps/hiredis/libhiredis.a
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/build
 
 deps/hiredis/CMakeFiles/hiredis.dir/clean:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean.cmake
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean.cmake
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/clean
 
 deps/hiredis/CMakeFiles/hiredis.dir/depend:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/depend
 

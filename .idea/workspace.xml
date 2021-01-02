@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="redis-3.0-annotated-cmake" targetName="redis-server" />
-      <config projectName="redis-3.0-annotated-cmake" targetName="redis-cli" />
       <config projectName="redis-3.0-annotated-cmake" targetName="lua" />
-      <config projectName="redis-3.0-annotated-cmake" targetName="hiredis" />
       <config projectName="redis-3.0-annotated-cmake" targetName="linenoise" />
+      <config projectName="redis-3.0-annotated-cmake" targetName="redis-cli" />
+      <config projectName="redis-3.0-annotated-cmake" targetName="hiredis" />
+      <config projectName="redis-3.0-annotated-cmake" targetName="redis-server" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,6 +26,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1mTOAJL98eRRPZ1LuEVOmXur261" />
   <component name="PropertiesComponent">
@@ -91,11 +94,23 @@
       <updated>1609513969375</updated>
       <workItem from="1609513970753" duration="7162000" />
       <workItem from="1609578507899" duration="5077000" />
+      <workItem from="1609596596276" duration="2342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

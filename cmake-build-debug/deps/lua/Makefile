@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Andrew/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/CMakeFiles/progress.marks
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/CMakeFiles/progress.marks
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/clean
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/lua/CMakeFiles/lua.dir/rule:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/CMakeFiles/lua.dir/rule
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/lua/CMakeFiles/lua.dir/rule
 .PHONY : deps/lua/CMakeFiles/lua.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lua: deps/lua/CMakeFiles/lua.dir/rule
 
 # fast build rule for target.
 lua/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/build
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/build
 .PHONY : lua/fast
 
 src/lapi.o: src/lapi.c.o
@@ -131,7 +131,7 @@ src/lapi.o: src/lapi.c.o
 
 # target to build an object file
 src/lapi.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.o
 .PHONY : src/lapi.c.o
 
 src/lapi.i: src/lapi.c.i
@@ -140,7 +140,7 @@ src/lapi.i: src/lapi.c.i
 
 # target to preprocess a source file
 src/lapi.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.i
 .PHONY : src/lapi.c.i
 
 src/lapi.s: src/lapi.c.s
@@ -149,7 +149,7 @@ src/lapi.s: src/lapi.c.s
 
 # target to generate assembly for a file
 src/lapi.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lapi.c.s
 .PHONY : src/lapi.c.s
 
 src/lauxlib.o: src/lauxlib.c.o
@@ -158,7 +158,7 @@ src/lauxlib.o: src/lauxlib.c.o
 
 # target to build an object file
 src/lauxlib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.o
 .PHONY : src/lauxlib.c.o
 
 src/lauxlib.i: src/lauxlib.c.i
@@ -167,7 +167,7 @@ src/lauxlib.i: src/lauxlib.c.i
 
 # target to preprocess a source file
 src/lauxlib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.i
 .PHONY : src/lauxlib.c.i
 
 src/lauxlib.s: src/lauxlib.c.s
@@ -176,7 +176,7 @@ src/lauxlib.s: src/lauxlib.c.s
 
 # target to generate assembly for a file
 src/lauxlib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lauxlib.c.s
 .PHONY : src/lauxlib.c.s
 
 src/lbaselib.o: src/lbaselib.c.o
@@ -185,7 +185,7 @@ src/lbaselib.o: src/lbaselib.c.o
 
 # target to build an object file
 src/lbaselib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.o
 .PHONY : src/lbaselib.c.o
 
 src/lbaselib.i: src/lbaselib.c.i
@@ -194,7 +194,7 @@ src/lbaselib.i: src/lbaselib.c.i
 
 # target to preprocess a source file
 src/lbaselib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.i
 .PHONY : src/lbaselib.c.i
 
 src/lbaselib.s: src/lbaselib.c.s
@@ -203,7 +203,7 @@ src/lbaselib.s: src/lbaselib.c.s
 
 # target to generate assembly for a file
 src/lbaselib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lbaselib.c.s
 .PHONY : src/lbaselib.c.s
 
 src/lcode.o: src/lcode.c.o
@@ -212,7 +212,7 @@ src/lcode.o: src/lcode.c.o
 
 # target to build an object file
 src/lcode.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.o
 .PHONY : src/lcode.c.o
 
 src/lcode.i: src/lcode.c.i
@@ -221,7 +221,7 @@ src/lcode.i: src/lcode.c.i
 
 # target to preprocess a source file
 src/lcode.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.i
 .PHONY : src/lcode.c.i
 
 src/lcode.s: src/lcode.c.s
@@ -230,7 +230,7 @@ src/lcode.s: src/lcode.c.s
 
 # target to generate assembly for a file
 src/lcode.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lcode.c.s
 .PHONY : src/lcode.c.s
 
 src/ldblib.o: src/ldblib.c.o
@@ -239,7 +239,7 @@ src/ldblib.o: src/ldblib.c.o
 
 # target to build an object file
 src/ldblib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.o
 .PHONY : src/ldblib.c.o
 
 src/ldblib.i: src/ldblib.c.i
@@ -248,7 +248,7 @@ src/ldblib.i: src/ldblib.c.i
 
 # target to preprocess a source file
 src/ldblib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.i
 .PHONY : src/ldblib.c.i
 
 src/ldblib.s: src/ldblib.c.s
@@ -257,7 +257,7 @@ src/ldblib.s: src/ldblib.c.s
 
 # target to generate assembly for a file
 src/ldblib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldblib.c.s
 .PHONY : src/ldblib.c.s
 
 src/ldebug.o: src/ldebug.c.o
@@ -266,7 +266,7 @@ src/ldebug.o: src/ldebug.c.o
 
 # target to build an object file
 src/ldebug.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.o
 .PHONY : src/ldebug.c.o
 
 src/ldebug.i: src/ldebug.c.i
@@ -275,7 +275,7 @@ src/ldebug.i: src/ldebug.c.i
 
 # target to preprocess a source file
 src/ldebug.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.i
 .PHONY : src/ldebug.c.i
 
 src/ldebug.s: src/ldebug.c.s
@@ -284,7 +284,7 @@ src/ldebug.s: src/ldebug.c.s
 
 # target to generate assembly for a file
 src/ldebug.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldebug.c.s
 .PHONY : src/ldebug.c.s
 
 src/ldo.o: src/ldo.c.o
@@ -293,7 +293,7 @@ src/ldo.o: src/ldo.c.o
 
 # target to build an object file
 src/ldo.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.o
 .PHONY : src/ldo.c.o
 
 src/ldo.i: src/ldo.c.i
@@ -302,7 +302,7 @@ src/ldo.i: src/ldo.c.i
 
 # target to preprocess a source file
 src/ldo.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.i
 .PHONY : src/ldo.c.i
 
 src/ldo.s: src/ldo.c.s
@@ -311,7 +311,7 @@ src/ldo.s: src/ldo.c.s
 
 # target to generate assembly for a file
 src/ldo.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldo.c.s
 .PHONY : src/ldo.c.s
 
 src/ldump.o: src/ldump.c.o
@@ -320,7 +320,7 @@ src/ldump.o: src/ldump.c.o
 
 # target to build an object file
 src/ldump.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.o
 .PHONY : src/ldump.c.o
 
 src/ldump.i: src/ldump.c.i
@@ -329,7 +329,7 @@ src/ldump.i: src/ldump.c.i
 
 # target to preprocess a source file
 src/ldump.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.i
 .PHONY : src/ldump.c.i
 
 src/ldump.s: src/ldump.c.s
@@ -338,7 +338,7 @@ src/ldump.s: src/ldump.c.s
 
 # target to generate assembly for a file
 src/ldump.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ldump.c.s
 .PHONY : src/ldump.c.s
 
 src/lfunc.o: src/lfunc.c.o
@@ -347,7 +347,7 @@ src/lfunc.o: src/lfunc.c.o
 
 # target to build an object file
 src/lfunc.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.o
 .PHONY : src/lfunc.c.o
 
 src/lfunc.i: src/lfunc.c.i
@@ -356,7 +356,7 @@ src/lfunc.i: src/lfunc.c.i
 
 # target to preprocess a source file
 src/lfunc.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.i
 .PHONY : src/lfunc.c.i
 
 src/lfunc.s: src/lfunc.c.s
@@ -365,7 +365,7 @@ src/lfunc.s: src/lfunc.c.s
 
 # target to generate assembly for a file
 src/lfunc.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lfunc.c.s
 .PHONY : src/lfunc.c.s
 
 src/lgc.o: src/lgc.c.o
@@ -374,7 +374,7 @@ src/lgc.o: src/lgc.c.o
 
 # target to build an object file
 src/lgc.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.o
 .PHONY : src/lgc.c.o
 
 src/lgc.i: src/lgc.c.i
@@ -383,7 +383,7 @@ src/lgc.i: src/lgc.c.i
 
 # target to preprocess a source file
 src/lgc.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.i
 .PHONY : src/lgc.c.i
 
 src/lgc.s: src/lgc.c.s
@@ -392,7 +392,7 @@ src/lgc.s: src/lgc.c.s
 
 # target to generate assembly for a file
 src/lgc.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lgc.c.s
 .PHONY : src/lgc.c.s
 
 src/linit.o: src/linit.c.o
@@ -401,7 +401,7 @@ src/linit.o: src/linit.c.o
 
 # target to build an object file
 src/linit.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.o
 .PHONY : src/linit.c.o
 
 src/linit.i: src/linit.c.i
@@ -410,7 +410,7 @@ src/linit.i: src/linit.c.i
 
 # target to preprocess a source file
 src/linit.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.i
 .PHONY : src/linit.c.i
 
 src/linit.s: src/linit.c.s
@@ -419,7 +419,7 @@ src/linit.s: src/linit.c.s
 
 # target to generate assembly for a file
 src/linit.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/linit.c.s
 .PHONY : src/linit.c.s
 
 src/liolib.o: src/liolib.c.o
@@ -428,7 +428,7 @@ src/liolib.o: src/liolib.c.o
 
 # target to build an object file
 src/liolib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.o
 .PHONY : src/liolib.c.o
 
 src/liolib.i: src/liolib.c.i
@@ -437,7 +437,7 @@ src/liolib.i: src/liolib.c.i
 
 # target to preprocess a source file
 src/liolib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.i
 .PHONY : src/liolib.c.i
 
 src/liolib.s: src/liolib.c.s
@@ -446,7 +446,7 @@ src/liolib.s: src/liolib.c.s
 
 # target to generate assembly for a file
 src/liolib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/liolib.c.s
 .PHONY : src/liolib.c.s
 
 src/llex.o: src/llex.c.o
@@ -455,7 +455,7 @@ src/llex.o: src/llex.c.o
 
 # target to build an object file
 src/llex.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.o
 .PHONY : src/llex.c.o
 
 src/llex.i: src/llex.c.i
@@ -464,7 +464,7 @@ src/llex.i: src/llex.c.i
 
 # target to preprocess a source file
 src/llex.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.i
 .PHONY : src/llex.c.i
 
 src/llex.s: src/llex.c.s
@@ -473,7 +473,7 @@ src/llex.s: src/llex.c.s
 
 # target to generate assembly for a file
 src/llex.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/llex.c.s
 .PHONY : src/llex.c.s
 
 src/lmathlib.o: src/lmathlib.c.o
@@ -482,7 +482,7 @@ src/lmathlib.o: src/lmathlib.c.o
 
 # target to build an object file
 src/lmathlib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.o
 .PHONY : src/lmathlib.c.o
 
 src/lmathlib.i: src/lmathlib.c.i
@@ -491,7 +491,7 @@ src/lmathlib.i: src/lmathlib.c.i
 
 # target to preprocess a source file
 src/lmathlib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.i
 .PHONY : src/lmathlib.c.i
 
 src/lmathlib.s: src/lmathlib.c.s
@@ -500,7 +500,7 @@ src/lmathlib.s: src/lmathlib.c.s
 
 # target to generate assembly for a file
 src/lmathlib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmathlib.c.s
 .PHONY : src/lmathlib.c.s
 
 src/lmem.o: src/lmem.c.o
@@ -509,7 +509,7 @@ src/lmem.o: src/lmem.c.o
 
 # target to build an object file
 src/lmem.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.o
 .PHONY : src/lmem.c.o
 
 src/lmem.i: src/lmem.c.i
@@ -518,7 +518,7 @@ src/lmem.i: src/lmem.c.i
 
 # target to preprocess a source file
 src/lmem.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.i
 .PHONY : src/lmem.c.i
 
 src/lmem.s: src/lmem.c.s
@@ -527,7 +527,7 @@ src/lmem.s: src/lmem.c.s
 
 # target to generate assembly for a file
 src/lmem.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lmem.c.s
 .PHONY : src/lmem.c.s
 
 src/loadlib.o: src/loadlib.c.o
@@ -536,7 +536,7 @@ src/loadlib.o: src/loadlib.c.o
 
 # target to build an object file
 src/loadlib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.o
 .PHONY : src/loadlib.c.o
 
 src/loadlib.i: src/loadlib.c.i
@@ -545,7 +545,7 @@ src/loadlib.i: src/loadlib.c.i
 
 # target to preprocess a source file
 src/loadlib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.i
 .PHONY : src/loadlib.c.i
 
 src/loadlib.s: src/loadlib.c.s
@@ -554,7 +554,7 @@ src/loadlib.s: src/loadlib.c.s
 
 # target to generate assembly for a file
 src/loadlib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loadlib.c.s
 .PHONY : src/loadlib.c.s
 
 src/lobject.o: src/lobject.c.o
@@ -563,7 +563,7 @@ src/lobject.o: src/lobject.c.o
 
 # target to build an object file
 src/lobject.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.o
 .PHONY : src/lobject.c.o
 
 src/lobject.i: src/lobject.c.i
@@ -572,7 +572,7 @@ src/lobject.i: src/lobject.c.i
 
 # target to preprocess a source file
 src/lobject.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.i
 .PHONY : src/lobject.c.i
 
 src/lobject.s: src/lobject.c.s
@@ -581,7 +581,7 @@ src/lobject.s: src/lobject.c.s
 
 # target to generate assembly for a file
 src/lobject.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lobject.c.s
 .PHONY : src/lobject.c.s
 
 src/lopcodes.o: src/lopcodes.c.o
@@ -590,7 +590,7 @@ src/lopcodes.o: src/lopcodes.c.o
 
 # target to build an object file
 src/lopcodes.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.o
 .PHONY : src/lopcodes.c.o
 
 src/lopcodes.i: src/lopcodes.c.i
@@ -599,7 +599,7 @@ src/lopcodes.i: src/lopcodes.c.i
 
 # target to preprocess a source file
 src/lopcodes.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.i
 .PHONY : src/lopcodes.c.i
 
 src/lopcodes.s: src/lopcodes.c.s
@@ -608,7 +608,7 @@ src/lopcodes.s: src/lopcodes.c.s
 
 # target to generate assembly for a file
 src/lopcodes.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lopcodes.c.s
 .PHONY : src/lopcodes.c.s
 
 src/loslib.o: src/loslib.c.o
@@ -617,7 +617,7 @@ src/loslib.o: src/loslib.c.o
 
 # target to build an object file
 src/loslib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.o
 .PHONY : src/loslib.c.o
 
 src/loslib.i: src/loslib.c.i
@@ -626,7 +626,7 @@ src/loslib.i: src/loslib.c.i
 
 # target to preprocess a source file
 src/loslib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.i
 .PHONY : src/loslib.c.i
 
 src/loslib.s: src/loslib.c.s
@@ -635,7 +635,7 @@ src/loslib.s: src/loslib.c.s
 
 # target to generate assembly for a file
 src/loslib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/loslib.c.s
 .PHONY : src/loslib.c.s
 
 src/lparser.o: src/lparser.c.o
@@ -644,7 +644,7 @@ src/lparser.o: src/lparser.c.o
 
 # target to build an object file
 src/lparser.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.o
 .PHONY : src/lparser.c.o
 
 src/lparser.i: src/lparser.c.i
@@ -653,7 +653,7 @@ src/lparser.i: src/lparser.c.i
 
 # target to preprocess a source file
 src/lparser.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.i
 .PHONY : src/lparser.c.i
 
 src/lparser.s: src/lparser.c.s
@@ -662,7 +662,7 @@ src/lparser.s: src/lparser.c.s
 
 # target to generate assembly for a file
 src/lparser.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lparser.c.s
 .PHONY : src/lparser.c.s
 
 src/lstate.o: src/lstate.c.o
@@ -671,7 +671,7 @@ src/lstate.o: src/lstate.c.o
 
 # target to build an object file
 src/lstate.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.o
 .PHONY : src/lstate.c.o
 
 src/lstate.i: src/lstate.c.i
@@ -680,7 +680,7 @@ src/lstate.i: src/lstate.c.i
 
 # target to preprocess a source file
 src/lstate.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.i
 .PHONY : src/lstate.c.i
 
 src/lstate.s: src/lstate.c.s
@@ -689,7 +689,7 @@ src/lstate.s: src/lstate.c.s
 
 # target to generate assembly for a file
 src/lstate.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstate.c.s
 .PHONY : src/lstate.c.s
 
 src/lstring.o: src/lstring.c.o
@@ -698,7 +698,7 @@ src/lstring.o: src/lstring.c.o
 
 # target to build an object file
 src/lstring.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.o
 .PHONY : src/lstring.c.o
 
 src/lstring.i: src/lstring.c.i
@@ -707,7 +707,7 @@ src/lstring.i: src/lstring.c.i
 
 # target to preprocess a source file
 src/lstring.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.i
 .PHONY : src/lstring.c.i
 
 src/lstring.s: src/lstring.c.s
@@ -716,7 +716,7 @@ src/lstring.s: src/lstring.c.s
 
 # target to generate assembly for a file
 src/lstring.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstring.c.s
 .PHONY : src/lstring.c.s
 
 src/lstrlib.o: src/lstrlib.c.o
@@ -725,7 +725,7 @@ src/lstrlib.o: src/lstrlib.c.o
 
 # target to build an object file
 src/lstrlib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.o
 .PHONY : src/lstrlib.c.o
 
 src/lstrlib.i: src/lstrlib.c.i
@@ -734,7 +734,7 @@ src/lstrlib.i: src/lstrlib.c.i
 
 # target to preprocess a source file
 src/lstrlib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.i
 .PHONY : src/lstrlib.c.i
 
 src/lstrlib.s: src/lstrlib.c.s
@@ -743,7 +743,7 @@ src/lstrlib.s: src/lstrlib.c.s
 
 # target to generate assembly for a file
 src/lstrlib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lstrlib.c.s
 .PHONY : src/lstrlib.c.s
 
 src/ltable.o: src/ltable.c.o
@@ -752,7 +752,7 @@ src/ltable.o: src/ltable.c.o
 
 # target to build an object file
 src/ltable.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.o
 .PHONY : src/ltable.c.o
 
 src/ltable.i: src/ltable.c.i
@@ -761,7 +761,7 @@ src/ltable.i: src/ltable.c.i
 
 # target to preprocess a source file
 src/ltable.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.i
 .PHONY : src/ltable.c.i
 
 src/ltable.s: src/ltable.c.s
@@ -770,7 +770,7 @@ src/ltable.s: src/ltable.c.s
 
 # target to generate assembly for a file
 src/ltable.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltable.c.s
 .PHONY : src/ltable.c.s
 
 src/ltablib.o: src/ltablib.c.o
@@ -779,7 +779,7 @@ src/ltablib.o: src/ltablib.c.o
 
 # target to build an object file
 src/ltablib.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.o
 .PHONY : src/ltablib.c.o
 
 src/ltablib.i: src/ltablib.c.i
@@ -788,7 +788,7 @@ src/ltablib.i: src/ltablib.c.i
 
 # target to preprocess a source file
 src/ltablib.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.i
 .PHONY : src/ltablib.c.i
 
 src/ltablib.s: src/ltablib.c.s
@@ -797,7 +797,7 @@ src/ltablib.s: src/ltablib.c.s
 
 # target to generate assembly for a file
 src/ltablib.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltablib.c.s
 .PHONY : src/ltablib.c.s
 
 src/ltm.o: src/ltm.c.o
@@ -806,7 +806,7 @@ src/ltm.o: src/ltm.c.o
 
 # target to build an object file
 src/ltm.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.o
 .PHONY : src/ltm.c.o
 
 src/ltm.i: src/ltm.c.i
@@ -815,7 +815,7 @@ src/ltm.i: src/ltm.c.i
 
 # target to preprocess a source file
 src/ltm.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.i
 .PHONY : src/ltm.c.i
 
 src/ltm.s: src/ltm.c.s
@@ -824,7 +824,7 @@ src/ltm.s: src/ltm.c.s
 
 # target to generate assembly for a file
 src/ltm.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/ltm.c.s
 .PHONY : src/ltm.c.s
 
 src/lua.o: src/lua.c.o
@@ -833,7 +833,7 @@ src/lua.o: src/lua.c.o
 
 # target to build an object file
 src/lua.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.o
 .PHONY : src/lua.c.o
 
 src/lua.i: src/lua.c.i
@@ -842,7 +842,7 @@ src/lua.i: src/lua.c.i
 
 # target to preprocess a source file
 src/lua.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.i
 .PHONY : src/lua.c.i
 
 src/lua.s: src/lua.c.s
@@ -851,7 +851,7 @@ src/lua.s: src/lua.c.s
 
 # target to generate assembly for a file
 src/lua.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua.c.s
 .PHONY : src/lua.c.s
 
 src/lua_cjson.o: src/lua_cjson.c.o
@@ -860,7 +860,7 @@ src/lua_cjson.o: src/lua_cjson.c.o
 
 # target to build an object file
 src/lua_cjson.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.o
 .PHONY : src/lua_cjson.c.o
 
 src/lua_cjson.i: src/lua_cjson.c.i
@@ -869,7 +869,7 @@ src/lua_cjson.i: src/lua_cjson.c.i
 
 # target to preprocess a source file
 src/lua_cjson.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.i
 .PHONY : src/lua_cjson.c.i
 
 src/lua_cjson.s: src/lua_cjson.c.s
@@ -878,7 +878,7 @@ src/lua_cjson.s: src/lua_cjson.c.s
 
 # target to generate assembly for a file
 src/lua_cjson.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cjson.c.s
 .PHONY : src/lua_cjson.c.s
 
 src/lua_cmsgpack.o: src/lua_cmsgpack.c.o
@@ -887,7 +887,7 @@ src/lua_cmsgpack.o: src/lua_cmsgpack.c.o
 
 # target to build an object file
 src/lua_cmsgpack.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.o
 .PHONY : src/lua_cmsgpack.c.o
 
 src/lua_cmsgpack.i: src/lua_cmsgpack.c.i
@@ -896,7 +896,7 @@ src/lua_cmsgpack.i: src/lua_cmsgpack.c.i
 
 # target to preprocess a source file
 src/lua_cmsgpack.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.i
 .PHONY : src/lua_cmsgpack.c.i
 
 src/lua_cmsgpack.s: src/lua_cmsgpack.c.s
@@ -905,7 +905,7 @@ src/lua_cmsgpack.s: src/lua_cmsgpack.c.s
 
 # target to generate assembly for a file
 src/lua_cmsgpack.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_cmsgpack.c.s
 .PHONY : src/lua_cmsgpack.c.s
 
 src/lua_struct.o: src/lua_struct.c.o
@@ -914,7 +914,7 @@ src/lua_struct.o: src/lua_struct.c.o
 
 # target to build an object file
 src/lua_struct.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.o
 .PHONY : src/lua_struct.c.o
 
 src/lua_struct.i: src/lua_struct.c.i
@@ -923,7 +923,7 @@ src/lua_struct.i: src/lua_struct.c.i
 
 # target to preprocess a source file
 src/lua_struct.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.i
 .PHONY : src/lua_struct.c.i
 
 src/lua_struct.s: src/lua_struct.c.s
@@ -932,7 +932,7 @@ src/lua_struct.s: src/lua_struct.c.s
 
 # target to generate assembly for a file
 src/lua_struct.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lua_struct.c.s
 .PHONY : src/lua_struct.c.s
 
 src/luac.o: src/luac.c.o
@@ -941,7 +941,7 @@ src/luac.o: src/luac.c.o
 
 # target to build an object file
 src/luac.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.o
 .PHONY : src/luac.c.o
 
 src/luac.i: src/luac.c.i
@@ -950,7 +950,7 @@ src/luac.i: src/luac.c.i
 
 # target to preprocess a source file
 src/luac.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.i
 .PHONY : src/luac.c.i
 
 src/luac.s: src/luac.c.s
@@ -959,7 +959,7 @@ src/luac.s: src/luac.c.s
 
 # target to generate assembly for a file
 src/luac.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/luac.c.s
 .PHONY : src/luac.c.s
 
 src/lundump.o: src/lundump.c.o
@@ -968,7 +968,7 @@ src/lundump.o: src/lundump.c.o
 
 # target to build an object file
 src/lundump.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.o
 .PHONY : src/lundump.c.o
 
 src/lundump.i: src/lundump.c.i
@@ -977,7 +977,7 @@ src/lundump.i: src/lundump.c.i
 
 # target to preprocess a source file
 src/lundump.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.i
 .PHONY : src/lundump.c.i
 
 src/lundump.s: src/lundump.c.s
@@ -986,7 +986,7 @@ src/lundump.s: src/lundump.c.s
 
 # target to generate assembly for a file
 src/lundump.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lundump.c.s
 .PHONY : src/lundump.c.s
 
 src/lvm.o: src/lvm.c.o
@@ -995,7 +995,7 @@ src/lvm.o: src/lvm.c.o
 
 # target to build an object file
 src/lvm.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.o
 .PHONY : src/lvm.c.o
 
 src/lvm.i: src/lvm.c.i
@@ -1004,7 +1004,7 @@ src/lvm.i: src/lvm.c.i
 
 # target to preprocess a source file
 src/lvm.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.i
 .PHONY : src/lvm.c.i
 
 src/lvm.s: src/lvm.c.s
@@ -1013,7 +1013,7 @@ src/lvm.s: src/lvm.c.s
 
 # target to generate assembly for a file
 src/lvm.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lvm.c.s
 .PHONY : src/lvm.c.s
 
 src/lzio.o: src/lzio.c.o
@@ -1022,7 +1022,7 @@ src/lzio.o: src/lzio.c.o
 
 # target to build an object file
 src/lzio.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.o
 .PHONY : src/lzio.c.o
 
 src/lzio.i: src/lzio.c.i
@@ -1031,7 +1031,7 @@ src/lzio.i: src/lzio.c.i
 
 # target to preprocess a source file
 src/lzio.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.i
 .PHONY : src/lzio.c.i
 
 src/lzio.s: src/lzio.c.s
@@ -1040,7 +1040,7 @@ src/lzio.s: src/lzio.c.s
 
 # target to generate assembly for a file
 src/lzio.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/lzio.c.s
 .PHONY : src/lzio.c.s
 
 src/print.o: src/print.c.o
@@ -1049,7 +1049,7 @@ src/print.o: src/print.c.o
 
 # target to build an object file
 src/print.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.o
 .PHONY : src/print.c.o
 
 src/print.i: src/print.c.i
@@ -1058,7 +1058,7 @@ src/print.i: src/print.c.i
 
 # target to preprocess a source file
 src/print.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.i
 .PHONY : src/print.c.i
 
 src/print.s: src/print.c.s
@@ -1067,7 +1067,7 @@ src/print.s: src/print.c.s
 
 # target to generate assembly for a file
 src/print.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/print.c.s
 .PHONY : src/print.c.s
 
 src/strbuf.o: src/strbuf.c.o
@@ -1076,7 +1076,7 @@ src/strbuf.o: src/strbuf.c.o
 
 # target to build an object file
 src/strbuf.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.o
 .PHONY : src/strbuf.c.o
 
 src/strbuf.i: src/strbuf.c.i
@@ -1085,7 +1085,7 @@ src/strbuf.i: src/strbuf.c.i
 
 # target to preprocess a source file
 src/strbuf.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.i
 .PHONY : src/strbuf.c.i
 
 src/strbuf.s: src/strbuf.c.s
@@ -1094,7 +1094,7 @@ src/strbuf.s: src/strbuf.c.s
 
 # target to generate assembly for a file
 src/strbuf.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/src/strbuf.c.s
 .PHONY : src/strbuf.c.s
 
 # Help Target
@@ -1225,6 +1225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

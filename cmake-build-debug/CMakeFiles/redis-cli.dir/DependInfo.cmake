@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/adlist.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/adlist.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/ae.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/ae.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/anet.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/anet.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/crc64.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/crc64.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/redis-cli.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/redis-cli.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/release.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/release.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/sds.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/sds.c.o"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/src/zmalloc.c" "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles/redis-cli.dir/src/zmalloc.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/adlist.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/adlist.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/ae.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/ae.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/anet.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/anet.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/crc64.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/crc64.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/redis-cli.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/redis-cli.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/release.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/release.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/sds.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/sds.c.o"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/src/zmalloc.c" "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/src/zmalloc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -24,8 +24,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
-  "/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
+  "/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

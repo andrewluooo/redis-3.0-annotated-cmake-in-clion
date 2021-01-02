@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps
+# Install script for directory: /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/cmake_install.cmake")
-  include("/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/linenoise/cmake_install.cmake")
-  include("/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/lua/cmake_install.cmake")
+  include("/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/cmake_install.cmake")
+  include("/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/linenoise/cmake_install.cmake")
+  include("/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/lua/cmake_install.cmake")
 
 endif()
 

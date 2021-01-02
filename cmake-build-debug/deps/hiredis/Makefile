@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Andrew/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+CMAKE_SOURCE_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/deps/hiredis/CMakeFiles/progress.marks
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/deps/hiredis/CMakeFiles/progress.marks
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/clean
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/preinstall
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/hiredis/CMakeFiles/hiredis.dir/rule:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/CMakeFiles/hiredis.dir/rule
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 deps/hiredis/CMakeFiles/hiredis.dir/rule
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hiredis: deps/hiredis/CMakeFiles/hiredis.dir/rule
 
 # fast build rule for target.
 hiredis/fast:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/build
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/build
 .PHONY : hiredis/fast
 
 async.o: async.c.o
@@ -131,7 +131,7 @@ async.o: async.c.o
 
 # target to build an object file
 async.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.o
 .PHONY : async.c.o
 
 async.i: async.c.i
@@ -140,7 +140,7 @@ async.i: async.c.i
 
 # target to preprocess a source file
 async.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.i
 .PHONY : async.c.i
 
 async.s: async.c.s
@@ -149,7 +149,7 @@ async.s: async.c.s
 
 # target to generate assembly for a file
 async.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/async.c.s
 .PHONY : async.c.s
 
 dict.o: dict.c.o
@@ -158,7 +158,7 @@ dict.o: dict.c.o
 
 # target to build an object file
 dict.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o
 .PHONY : dict.c.o
 
 dict.i: dict.c.i
@@ -167,7 +167,7 @@ dict.i: dict.c.i
 
 # target to preprocess a source file
 dict.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.i
 .PHONY : dict.c.i
 
 dict.s: dict.c.s
@@ -176,7 +176,7 @@ dict.s: dict.c.s
 
 # target to generate assembly for a file
 dict.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/dict.c.s
 .PHONY : dict.c.s
 
 hiredis.o: hiredis.c.o
@@ -185,7 +185,7 @@ hiredis.o: hiredis.c.o
 
 # target to build an object file
 hiredis.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o
 .PHONY : hiredis.c.o
 
 hiredis.i: hiredis.c.i
@@ -194,7 +194,7 @@ hiredis.i: hiredis.c.i
 
 # target to preprocess a source file
 hiredis.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.i
 .PHONY : hiredis.c.i
 
 hiredis.s: hiredis.c.s
@@ -203,7 +203,7 @@ hiredis.s: hiredis.c.s
 
 # target to generate assembly for a file
 hiredis.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.s
 .PHONY : hiredis.c.s
 
 net.o: net.c.o
@@ -212,7 +212,7 @@ net.o: net.c.o
 
 # target to build an object file
 net.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.o
 .PHONY : net.c.o
 
 net.i: net.c.i
@@ -221,7 +221,7 @@ net.i: net.c.i
 
 # target to preprocess a source file
 net.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.i
 .PHONY : net.c.i
 
 net.s: net.c.s
@@ -230,7 +230,7 @@ net.s: net.c.s
 
 # target to generate assembly for a file
 net.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/net.c.s
 .PHONY : net.c.s
 
 sds.o: sds.c.o
@@ -239,7 +239,7 @@ sds.o: sds.c.o
 
 # target to build an object file
 sds.c.o:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o
 .PHONY : sds.c.o
 
 sds.i: sds.c.i
@@ -248,7 +248,7 @@ sds.i: sds.c.i
 
 # target to preprocess a source file
 sds.c.i:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.i
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.i
 .PHONY : sds.c.i
 
 sds.s: sds.c.s
@@ -257,7 +257,7 @@ sds.s: sds.c.s
 
 # target to generate assembly for a file
 sds.c.s:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.s
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(MAKE) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/sds.c.s
 .PHONY : sds.c.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/hiredis -I/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/linenoise -I/cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua/src 
+C_INCLUDES = -I/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/hiredis -I/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/linenoise -I/cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua/src 
 

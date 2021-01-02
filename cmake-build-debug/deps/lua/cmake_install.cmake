@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/deps/lua
+# Install script for directory: /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/deps/lua
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

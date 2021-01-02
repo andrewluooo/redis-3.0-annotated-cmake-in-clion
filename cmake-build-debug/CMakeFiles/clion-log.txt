@@ -1,4 +1,4 @@
-C:\Users\Andrew\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+C:\Users\Andrew\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 -- The C compiler identification is GNU 10.2.0
 -- The CXX compiler identification is GNU 10.2.0
 -- Check for working C compiler: /usr/bin/cc
@@ -14,8 +14,10 @@ C:\Users\Andrew\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYP
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Host is: CYGWIN-3.1.7(0.340/5/3).  Build target is: CYGWIN-3.1.7(0.340/5/3)
--- Project root directory is: /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master
+-- Project root directory is: /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion
 -- Generating release.h...
+#define REDIS_GIT_SHA1 "00000000"
+#define REDIS_GIT_DIRTY "0"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/f/server/computer_science/database/redis-3.0-annotated-cmake-in-clion-master/cmake-build-debug
+-- Build files have been written to: /cygdrive/f/server/computer_science/gitCode/redis-3.0-annotated-cmake-in-clion/cmake-build-debug
