@@ -1,6 +1,10 @@
 # 使用CLion调试redis源码
 # Using clion to debug redis source code to better understand how Redis works.
 
+link：[https://github.com/andrewluooo/redis-3.0-annotated-cmake-in-clion]()
+
+### 阅读和学习源码最好先将代码跑起来
+
 ## 参考
 
 Reference: `https://github.com/htw0056/redis-3.0-annotated-cmake-in-clion` .
@@ -15,14 +19,20 @@ Add `CMakeList.txt` for Redis
 
 ### 下载源码
 
+Download source code
+
 ```shell
 git clone https://github.com/andrewluooo/redis-3.0-annotated-cmake-in-clion.git
 ```
 
-### 断点
+### 设置断点
 ### Set Break Points
 
-For examples, to debug command `set key value` you can find the function `void setCommand(redisClient *c)` and set a break point in it.
+For examples, to debug reids command
+```
+set key value
+```
+you can find the function `void setCommand(redisClient *c)` and set a break point in it.
 
 ![image](https://github.com/andrewluooo/redis-3.0-annotated-cmake-in-clion/blob/main/IMG/clionDebugRedis_setCommand.png)
 
